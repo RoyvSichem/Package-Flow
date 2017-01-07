@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# Dit zorgt er voor dat je paginas krijgt wanneer er meer articels zijn
+gem 'will_paginate', '~> 3.1'
+# Bootstrap Will_paginate
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
